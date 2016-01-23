@@ -1,0 +1,23 @@
+{
+  "name": "allowanceapi",
+  "version": "0.0.1",
+  "description": "Node.js server which powers the API for the Allowance App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddsdarling/AllowanceApp.git"
+  },
+  "author": "Todd Darling",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/toddsdarling/AllowanceApp/issues"
+  },
+  "homepage": "https://github.com/toddsdarling/AllowanceApp#readme",
+  "devDependencies": {
+    "mongoose": "^4.3.6",
+    "restify": "^4.0.3"
+  }
+}

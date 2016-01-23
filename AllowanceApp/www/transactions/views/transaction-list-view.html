@@ -1,0 +1,170 @@
+<ion-view ng-controller="TransactionListCtrl" class="allowance-transactionList" title="Transactions for Gavin">
+
+	<div class="bar bar-header bar-energized">
+  		<h1 class="title">Transactions for Gavin</h1>
+	</div>
+
+	<ion-content class="has-header">
+
+		<div class="transactionList-topPart">
+
+			<div class="row">
+				<div class="col">
+				 <label class="item item-input item-select">
+				    <div class="input-label">
+				      Show:
+				    </div>
+				    <select>
+				      <option selected >All buckets</option>
+				      <option>Save</option>
+				      <option>Spend</option>
+				      <option>Give</option>
+				    </select>
+				  </label>
+				</div>			
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<h1 class="total">Total: $155.00</h1>
+				</div>
+			</div>
+
+		</div>
+
+		<ion-scroll class="transactionList-list" delegate-handle="taskScroll" direction="y">
+			
+			<div class="list">
+
+				<div class="card">			
+					<div class="item item-balanced">
+						<div class="row">
+							<div class="col">
+								<h2>
+									<i class="icon ion-plus-circled"></i>15.00
+								</h2>
+							</div>
+							<div class="col text-right">
+								10/11/2015
+							</div>					
+						</div>	      				      		 
+			    	</div>
+
+				    <div class="text-right item item-divider">
+				      Savings General
+				    </div>
+			    </div>
+
+				<div class="card">			
+					<div class="item item-assertive">
+						<div class="row">
+							<div class="col">
+								<h2>
+									<i class="icon ion-minus-circled"></i>15.00
+								</h2>
+							</div>
+							<div class="col text-right">
+								10/11/2015
+							</div>					
+						</div>	      				      		 
+			    	</div>
+
+				    <div class="text-right item item-divider">
+				      Savings General
+				    </div>
+			    </div>
+
+
+				<div class="card">			
+					<div class="item item-balanced">
+						<div class="row">
+							<div class="col">
+								<h2>
+									<i class="icon ion-plus-circled"></i>15.00
+								</h2>
+							</div>
+							<div class="col text-right">
+								10/11/2015
+							</div>					
+						</div>	      				      		 
+			    	</div>
+
+				    <div class="text-right item item-divider">
+				      Savings General
+				    </div>
+			    </div>
+
+				<div class="card">			
+					<div class="item item-assertive">
+						<div class="row">
+							<div class="col">
+								<h2>
+									<i class="icon ion-minus-circled"></i>15.00
+								</h2>
+							</div>
+							<div class="col text-right">
+								10/11/2015
+							</div>					
+						</div>	      				      		 
+			    	</div>
+
+				    <div class="text-right item item-divider">
+				      Savings General
+				    </div>
+			    </div>
+
+				<div class="card">			
+					<div class="item item-balanced">
+						<div class="row">
+							<div class="col">
+								<h2>
+									<i class="icon ion-plus-circled"></i>15.00
+								</h2>
+							</div>
+							<div class="col text-right">
+								10/11/2015
+							</div>					
+						</div>	      				      		 
+			    	</div>
+
+				    <div class="text-right item item-divider">
+				      Savings General
+				    </div>
+			    </div>
+
+				<div class="card">			
+					<div class="item item-assertive">
+						<div class="row">
+							<div class="col">
+								<h2>
+									<i class="icon ion-minus-circled"></i>15.00
+								</h2>
+							</div>
+							<div class="col text-right">
+								10/11/2015
+							</div>					
+						</div>	      				      		 
+			    	</div>
+
+				    <div class="text-right item item-divider">
+				      Savings General
+				    </div>
+			    </div>			    
+
+				</div>
+
+			</div>
+
+		</ion-scroll>
+
+	</ion-content>
+
+	<div class="bar bar-footer">
+		<button ng-click="openTransactionModal()" class="transactionList-newTransBtn button button-full button-clear">
+				<i class="icon ion-plus-circled"></i> New Transaction
+		</button>
+	</div>	
+
+</ion-view>
+
+

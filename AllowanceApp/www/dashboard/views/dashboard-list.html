@@ -1,0 +1,55 @@
+<ion-scroll ng-controller="DashboardCtrl" delegate-handle="taskScroll" direction="y">
+
+<div id="allowance-dashboardList" class="list">
+
+  <ion-list>
+    <ion-item ng-repeat="user in users">
+      
+      <div class="card">
+
+          <div class="item item-avatar item-energized">
+            <img src="{{user.imageUrl}}">
+            <h2>{{user.name}}</h2> 
+          </div>
+
+        <div class="item padding-horizontal item-body">
+          <h1>
+            <span>$5</span>
+          </h1>
+          
+          <div class="lastTransaction-info">
+            Last Transaction
+            <div class="row">
+              <div class="col-50">
+                <i class="icon balanced ion-plus-circled"></i> $15.00
+                <br/>
+                Savings: General                         
+              </div>
+
+              <div class="col-50 col-offset-20">
+                10/20/2015                     
+              </div>
+
+            </div>                         
+          </div>
+        </div>
+
+        <div class="item item-divider">
+          <a href="#/transactions" class="button icon-right ion-arrow-right-b button-clear button-calm">View All Transactions</a>
+        </div>
+
+      </div>
+
+
+
+    </ion-item>
+
+  </ion-list>
+
+</div>
+
+</ion-scroll>
+
+
+
+
